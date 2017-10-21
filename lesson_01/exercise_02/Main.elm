@@ -26,14 +26,14 @@ main =
         , ul [ class "results" ]
             [ li []
                 [ span [ class "star-count" ]
-                    [-- TODO display the number of stars here.
-                     --
+                    [-- TODO Display the number of stars here.
                      -- HINT: You'll need some parentheses to do this!
                     ]
 
-                -- TODO use the model to put a link here that points to
-                -- https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
-                -- by prepending the "https://github.com/" part.
+                -- TODO Use the model to put a link here that points to
+                -- https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial.
+                -- Do this by prepending "https://github.com/" to the part
+                -- of the URL stored in the model.
                 ]
             ]
         ]
