@@ -1,4 +1,4 @@
-# Lesson 1, Exercise 1
+# Lesson 1, Exercise 2
 
 ## Installation
 
