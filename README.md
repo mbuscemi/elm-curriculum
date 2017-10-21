@@ -4,23 +4,25 @@
 
 Portions of this repository have been imported and/or adapted from [Richard Feldman's Elm Workshop](https://github.com/rtfeldman/elm-workshop).
 
-## Getting Started
+## Installation
 
-### Installation
+1. Install the [Atom IDE](https://atom.io/).
 
-1. Install [Node.js](http://nodejs.org) 6.9.2 or higher
+2. Add the [Elm Language Plugin for Atom](https://atom.io/packages/language-elm).
 
-2. Add a plugin for your IDE: [Atom](https://atom.io/packages/language-elm)
+3. Install the [Elm Runtime](https://guide.elm-lang.org/install.html).
 
-3. Not required, but **highly** recommended: [install elm-format](https://github.com/avh4/elm-format#installation-) and integrate it into your editor so that it runs on save.
+4. Install [Node.js](http://nodejs.org) 6.9.2 or higher.
 
-4. Run the following command to install everything else:
+5. Not required, but **highly** recommended: [install elm-format](https://github.com/avh4/elm-format#installation-) and integrate it into your editor so that it runs on save.
+
+6. Run the following command to install everything else:
 
 ```bash
 npm install -g elm elm-test elm-css elm-live@2.6.1
 ```
 
-**Note to macOS users:** If step 4 gives you an `EACCESS` error, try [this fix](https://docs.npmjs.com/getting-started/fixing-npm-permissions):
+**Note to Mac OS X users:** If step 4 gives you an `EACCESS` error, try [this fix](https://docs.npmjs.com/getting-started/fixing-npm-permissions):
 
 ```bash
 sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
@@ -28,7 +30,7 @@ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 
 Then re-run step 4.
 
-### Clone this repository
+## Clone this repository
 
 Use Sourcetree or GitHub desktop to clone this repository, or run this in your terminal:
 
@@ -39,7 +41,7 @@ cd elm-workshop
 
 **Note:** Tab characters are syntax errors in Elm code, so make sure Atom is set to use spaces for this class!
 
-### Verify Setup
+## Verify Setup
 
 Run this to install packages:
 
