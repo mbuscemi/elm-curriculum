@@ -5,7 +5,7 @@
 
 Students will be able to:
 * Model HTML webpages in Elm code
-* Manipulate Elm data structures to affect the presentation of associated HTML
+* Manipulate HTML output with Elm data structures
 
 ### Syllabus
 
