@@ -60,8 +60,8 @@ onlyOddsView model =
         [ elmHubHeader
 
         {- TODO
-           1. Begin this section only after you have completed the TODO in the view function
-              to your satisfaction.
+           1. Begin this section only after you have completed the TODO in the allRecordsView
+              function to your satisfaction.
            2. Go up to the definition of 'main', and change it to be 'main = onlyOddsView model'.
               You should now see that the list has disappeared in your browser. This is because
               we have changed the view function we are using, and this new one has an empty list
