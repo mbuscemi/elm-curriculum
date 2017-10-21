@@ -57,6 +57,6 @@ elm-live Main.elm --open --pushstate --output=elm.js
 
 A browser should open, and you should see this in it:
 
-![](images/startup-verification.png)
+![](startup-verification.png)
 
 If things aren't working, your instructor will be happy to help!
