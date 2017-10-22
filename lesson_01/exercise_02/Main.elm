@@ -22,7 +22,8 @@ elmHubHeader =
 
 main =
     div [ class "content" ]
-        [ text "TODO put the contents of elmHubHeader here instead of this text!"
+        [ -- TODO see line 26 below
+          text "TODO put the contents of elmHubHeader here instead of this text!"
         , ul [ class "results" ]
             [ li []
                 [ span [ class "star-count" ]

@@ -40,8 +40,10 @@ allRecordsView model =
         [ elmHubHeader
 
         {- TODO Add an <li> to the <ul class="results"> for each record in model.results.
-           HINT: Think about how you can use List.map. You goal is to replace
-           the empty list with a list of virtual HTML li objects.
+           HINT: Look at the function 'viewSearchResult' below on line 50, which takes
+           a result and returns an li. Think about how you can use List.map.
+           Your goal is to replace the empty list on line 47 with a list of virtual HTML
+           li objects.
         -}
         , ul [ class "results" ] []
         ]
@@ -62,10 +64,10 @@ onlyOddsView model =
         {- TODO
            1. Begin this section only after you have completed the TODO in the allRecordsView
               function to your satisfaction.
-           2. Go up to the definition of 'main', and change it to be 'main = onlyOddsView model'.
-              You should now see that the list has disappeared in your browser. This is because
-              we have changed the view function we are using, and this new one has an empty list
-              for the results.
+           2. Go to line 7 of this file, and change the definition of 'main' to be
+              'main = onlyOddsView model'. You should now see that the list has disappeared in
+              your browser. This is because we have changed the view function we are using,
+              and this new one has an empty list for the results.
            3. Populate the <ul> of this view only with records that have odd-numbered id fields.
               HINT: Think of how you can use List.filter, and see also
               http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#mathematics
@@ -80,9 +82,10 @@ noSportoView model =
         [ elmHubHeader
 
         {- TODO
-           1. Go up to the definition of 'main', and change it to be 'main = noSportoView model'.
-           2. Populate the list only with records that represent packages NOT made by the user
-              named "sporto".
+           1. Go to line 7 of this file, and change the definition of 'main' to be
+              'main = noSportoView model'.
+           2. Populate the list only with records that represent packages NOT made
+              by the user named "sporto".
               HINT: Think of how you can use List.filter, and see also
               http://package.elm-lang.org/packages/elm-lang/core/5.1.1/String
               if you get stuck.
