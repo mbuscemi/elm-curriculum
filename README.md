@@ -36,7 +36,7 @@ Use SourceTree or GitHub Desktop to clone this repository, or run this in your t
 
 ```bash
 git clone https://github.com/mbuscemi/elm-curriculum
-cd elm-workshop
+cd elm-curriculum
 ```
 
 **Note:** Tab characters are syntax errors in Elm code, so make sure Atom is set to use spaces for this class!
