@@ -1,4 +1,4 @@
-# Lesson 1, Exercise 3
+# Lesson 2, Exercise 1
 
 ## Installation
 
@@ -8,13 +8,10 @@ elm-package install --yes
 
 ## Building
 
-```bash
-elm-live Main.elm --open --pushstate --output=elm.js
-```
+Not Required
 
 ## References
 
 * [Elm Basics, Mathematics functions](http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#mathematics)
 * [Elm String functions](http://package.elm-lang.org/packages/elm-lang/core/latest/String)
-* [`List.filter` documentation](http://package.elm-lang.org/packages/elm-lang/core/latest/List#filter)
-* [`List.map` documentation](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map)
+* [Elm Char functions](http://package.elm-lang.org/packages/elm-lang/core/latest/Char)
