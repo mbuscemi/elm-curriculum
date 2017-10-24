@@ -3,7 +3,7 @@ module Main exposing (..)
 import Char
 
 
-{- TODO add the type annotations to every function. -}
+{- TODO Add a type annotation to each function. -}
 
 
 concatenate a b =

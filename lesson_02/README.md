@@ -23,4 +23,5 @@ Students will be able to:
 3. Type Parameters
     1. Annotating Lists
     2. What is an `Html Msg`?
+    3. The `Program` Type
     4. Exercise 3
