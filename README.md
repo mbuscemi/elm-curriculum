@@ -14,7 +14,10 @@ Portions of this repository have been imported and/or adapted from [Richard Feld
 
 4. Install [Node.js](http://nodejs.org) 6.9.2 or higher.
 
-5. Not required, but **highly** recommended: install [elm-format](https://github.com/avh4/elm-format#installation-). Once you have `elm-format`, install [the Atom plugin for elm-format](https://atom.io/packages/elm-format).
+5. Not required, but **highly** recommended:
+    1. Install [elm-format](https://github.com/avh4/elm-format#installation-).
+    2. Install the [atom-beautify](https://atom.io/packages/atom-beautify) plugin in Atom.
+    3. Go to the packages settings for `atom-beautify`, toggle open the "Elm" section, and check the "Beautify on Save" button.
 
 6. Install `elm-test` and `elm-live` via NPM:
 
