@@ -31,10 +31,11 @@ main =
                      -- HINT: You'll need some parentheses to do this!
                     ]
 
-                -- TODO Use the model to put a link here that points to
+                -- TODO Put an anchor tag here that links to
                 -- https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial.
                 -- Do this by prepending "https://github.com/" to the part
                 -- of the URL stored in the model.
+                -- See this link: http://package.elm-lang.org/packages/elm-lang/html/latest/Html#a
                 ]
             ]
         ]
